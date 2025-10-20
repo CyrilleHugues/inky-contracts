@@ -13,9 +13,12 @@ dependencies = [
     "pillow>=11.3.0",
 ]
 
-[projects.urls]
+[project.urls]
 Homepage = "https://github.com/CyrilleHugues/inky-contracts"
 Issues = "https://github.com/CyrilleHugues/inky-contracts/issues"
+
+[tool.uv]
+packages = ["src"]
 
 [build-system]
 requires = ["uv_build>=0.9.4,<0.10.0"]
