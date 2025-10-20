@@ -1,9 +1,22 @@
 [project]
 name = "inky_contracts"
 version = "0.1.1"
+authors = [
+    { name="Cyrille Hugues", email="author@example.com" }
+]
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.14"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 dependencies = [
     "pillow>=11.3.0",
 ]
+
+[projects.urls]
+Homepage = "https://github.com/CyrilleHugues/inky-contracts"
+Issues = "https://github.com/CyrilleHugues/inky-contracts/issues"
+
+[build-system]
+requires = ["uv_build>=0.9.4,<0.10.0"]
+build-backend = "uv_build"
